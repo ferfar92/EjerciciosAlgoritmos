@@ -1,30 +1,30 @@
 //---------------Ejercicio 1
-// let x = parseFloat(prompt("Dime tres números del 1 al 100, primero", ""));
-// let y= parseFloat(prompt("Dime tres números del 1 al 100, segundo", ""));
-// let z= parseFloat(prompt("Dime tres números del 1 al 100, tercero", ""));
+let x = parseFloat(prompt("Dime tres números del 1 al 100, primero", ""));
+let y= parseFloat(prompt("Dime tres números del 1 al 100, segundo", ""));
+let z= parseFloat(prompt("Dime tres números del 1 al 100, tercero", ""));
 
-//console.log(x,y,z);
-// if((x>=1 && x<=100) && (y>=1 && y<=100) &&(z>=1 && z<=100))
-// {
+console.log(x,y,z);
+if((x>=1 && x<=100) && (y>=1 && y<=100) &&(z>=1 && z<=100))
+{
     
-// } else {alert("No es un número del 1 al 100")};
+} else {alert("No es un número del 1 al 100")};
 
 
-// if((x>=y) && (x>=z)){
-//     alert("El número amyor es " + x);
-//     console.log(x);
+if((x>=y) && (x>=z)){
+    alert("El número amyor es " + x);
+    console.log(x);
 
-// } else if ((y>=x) && (y>=z))
-// { 
-//     alert("El número amyor es " + y);
-//     console.log(y);
+} else if ((y>=x) && (y>=z))
+{ 
+    alert("El número amyor es " + y);
+    console.log(y);
 
-// } else if ((z>=x) && (z>=y))
-// { 
-//     alert("El número amyor es " + z);
-//     console.log(z);
+} else if ((z>=x) && (z>=y))
+{ 
+    alert("El número amyor es " + z);
+    console.log(z);
 
-// };
+};
 
 //-----------------------Ejercicio 2
 
