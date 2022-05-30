@@ -70,7 +70,38 @@ if((x>=y) && (x>=z)){
 //     m=+1;
 
 // } ;
+let m = prompt("Dime un número entero del 1 al 100", "");
+Adivinar (m)
+function Adivinar ()
+{
+let superior = 100;
+let inferior = 0;
+let noEncontrado = true;
 
+while (noEncontrado)
+    {
+    let mid = parseInt(inferior + ((superior-inferior) /2));
+    console.log(mid);
+    console.log(((superior-inferior)/2));
+    
+    if (((superior-inferior)/2)<1)
+        {
+           noEncontrado = false;
+            alert("Tú número es el "+ (parseInt(mid) +1));
+              break;
+        }
+    let res = confirm("Tu número es menor o igual a "+mid);
+
+    if (res)
+    {
+          superior = mid;
+    } else 
+        {
+           inferior = mid;
+        };
+    console.log(inferior, superior);
+    };
+};
 //---------------------Ejercicio 4------------------------
 // let a = parseFloat(prompt("Dime un número entero del 100 al 200", ""));
 // console.log(a);
@@ -119,3 +150,6 @@ if(a==(b+c))
 };
 
 //-------------------Ejercicio 6----------------------------
+
+
+
